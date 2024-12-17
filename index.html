@@ -1,7 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Header Section -->
+    <header>
+        <h1>Benjamin Hwang's Personal Website</h1>
+        <p>Welcome!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#photography">Photography</a></li>
+            <li><a href="#youtube">Videography</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my website! Here you'll find information about me, my hobbies, and my work.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Introduce yourself here. Share your background, interests, and what you're passionate about.</p>
+        </section>
+
+        <section id="photography">
+            <h2>My Photography</h2>
+            <p>Here are some of my favorite shots:</p>
+            <img src="https://via.placeholder.com/300" alt="Photography Sample" width="300">
+        </section>
+
+        <section id="videography">
+            <h2>Videography</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/@BenjaminHwang" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="resume">
+            <h2>My Resume</h2>
+            <a href="resume/Benjamin_Hwang_Resume.pdf" download>Download Resume</a>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Benjamin Hwang. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
